@@ -45,11 +45,7 @@ class AdminUser: UserManager {
     }
     
     func listAllUsers() -> [String] {
-        var listOfUsers: [String] = []
-        for user in super.users {
-            listOfUsers.append(user.key)
-        }
-        return listOfUsers
+        return Array(users.keys)
     }
     
     deinit {

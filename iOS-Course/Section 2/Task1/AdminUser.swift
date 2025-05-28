@@ -6,16 +6,8 @@
 //
 
 class AdminUser: UserManager {
-    override init() {
-        super.init()
-    }
-    
     func listAllUsers() -> [String] {
-        var listOfUsers: [String] = []
-        for user in super.users {
-            listOfUsers.append(user.key)
-        }
-        return listOfUsers
+        return Array(users.keys)
     }
     
     deinit {
