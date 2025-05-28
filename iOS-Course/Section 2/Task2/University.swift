@@ -8,9 +8,4 @@
 struct University {
     let name: String
     let location: String
-    
-    init(name: String, location: String) {
-        self.name = name
-        self.location = location
-    }
 }
