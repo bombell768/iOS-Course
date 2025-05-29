@@ -12,7 +12,7 @@ protocol Borrowable {
     var returnDate: Date? { get set }
     var isBorrowed: Bool { get set }
     
-    func isOverdue() -> Bool
+//    func isOverdue() -> Bool
     mutating func checkIn()
 }
 
