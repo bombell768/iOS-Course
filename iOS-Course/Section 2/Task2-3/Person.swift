@@ -6,7 +6,7 @@
 //
 
 class Person {
-    var name: String
+    let name: String
     var age: Int
     var isAdult: Bool { age >= 18 }
     static let minAgeForEnrollment = 16

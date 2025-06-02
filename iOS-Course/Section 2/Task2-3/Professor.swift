@@ -7,7 +7,7 @@
 
 class Professor: Person {
     static var professorCount = 0
-    var faculty: String
+    let faculty: String
     var fullTitle: String {
         "\(name), \(age) years old, \(faculty)"
     }

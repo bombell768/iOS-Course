@@ -8,7 +8,7 @@
 class Student: Person {
     static var studentCount = 0
     let studentID: String
-    var major: String
+    let major: String
     weak var advisor: Professor?
     var formattedID: String {
         "ID: \(studentID.uppercased())"
